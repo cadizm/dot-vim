@@ -3,6 +3,15 @@
   "suggest.autoTrigger": "always",
 
   "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    },
+
     "terraform": {
       "command": "terraform-ls",
       "args": [
