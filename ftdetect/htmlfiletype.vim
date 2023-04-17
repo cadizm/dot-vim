@@ -1,3 +1,2 @@
-
-au BufNewFile,BufRead *.html setlocal filetype=html fileencoding=utf-8 fileformat=unix
+autocmd BufNewFile,BufRead *.html setfiletype html
 autocmd FileType html setlocal shiftwidth=2 tabstop=2

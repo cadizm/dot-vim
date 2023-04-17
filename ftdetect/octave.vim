@@ -1,1 +1,2 @@
-au! BufRead,BufNewFile *.m,*.oct set filetype=octave
+autocmd BufRead,BufNewFile *.m setfiletype octave
+autocmd BufRead,BufNewFile *.oct setfiletype octave

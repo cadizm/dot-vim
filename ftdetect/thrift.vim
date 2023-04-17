@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.thrift setlocal filetype=thrift
+autocmd BufNewFile,BufRead *.thrift setfiletype thrift
