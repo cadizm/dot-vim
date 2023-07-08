@@ -33,5 +33,9 @@
   "clangd.path": "/usr/local/opt/llvm/bin/clangd",
 
   "pyright.inlayHints.functionReturnTypes": false,
-  "pyright.inlayHints.variableTypes": false
+  "pyright.inlayHints.variableTypes": false,
+
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportGeneralTypeIssues": "warning"
+  }
 }
