@@ -27,7 +27,7 @@
   },
 
   "[java]": {
-    "suggest.autoTrigger": "always"
+    "suggest.autoTrigger": "none"
   },
 
   "clangd.path": "/usr/local/opt/llvm/bin/clangd",
