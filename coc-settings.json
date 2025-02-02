@@ -30,6 +30,8 @@
     "suggest.autoTrigger": "none"
   },
 
+  "java.enabled": false,
+
   "clangd.path": "/usr/local/opt/llvm/bin/clangd",
 
   "pyright.inlayHints.functionReturnTypes": false,
